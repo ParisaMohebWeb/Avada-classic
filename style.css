@@ -7,19 +7,20 @@
 }
 
 
-@media screen and (min-width:576px) {
-
-    .width40{  width: 40% !important; }
-    
-}
-.pad40{
-    padding: 100px 80px;
-}
-.hh{
-    height:120 vh;
+/* header */
+header{
+    height: 70px;
+    >nav{
+        >img{  width: 150px; }
+    }
 }
 
+/* image & text */
+.pad40{ padding: 100px 80px;}
+.hh{  height:120 vh;}
 
+
+/* get started */
 .bgsecend{
     background-image: url(asstes/img/banner-02.jpg);
     background-position: center;
@@ -28,10 +29,9 @@
     margin:100px 0;
     box-shadow: inset 0 125vh 5px rgba(26, 25, 25, 0.333);
 }
+.w150{ width: 200px;}
 
-.w150{
-    width: 200px;
-}
+/* bg green */
 .bggreen{
     background-image: url(asstes/img/31.jpg);
     background-size: cover;
